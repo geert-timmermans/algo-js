@@ -1,12 +1,12 @@
-const readlineSync = require ("readline-sync");
+const readlineSync = require("readline-sync");
 
 let n = parseInt(readlineSync.question("Give any positive number: "));
 let e = [];
 n = Math.floor(n);
 
-function divisors(n){
-    for(i = 2; i < n; i++){
-        if((n% i) === 0){
+function divisors(n) {
+    for (i = 2; i < n; i++) {
+        if ((n % i) === 0) {
             e.push(i);
         }
     }
