@@ -10,7 +10,7 @@ function rand10(){         //function for generating a random number between 0-1
 }
 
 
-function multiRand(n){     //funtion for adding the random number to the array
+function multiRand(){     //funtion for adding the random number to the array
         arr.push(rand10());
 }
 
