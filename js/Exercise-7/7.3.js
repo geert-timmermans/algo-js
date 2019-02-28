@@ -1,8 +1,7 @@
 const readlineSync = require("readline-sync");
 
-let n = parseInt(readlineSync.question("Give any positive number: "));
+let n = Math.floor(parseInt(readlineSync.question("Give any positive number: ")));
 let e = [];
-n = Math.floor(n);
 
 function divisors(n) {
     for (i = 2; i < n; i++) {
