@@ -12,8 +12,8 @@ function divisors(n) {
 }
 
 divisors(n)
-console.log(e);
-
+console.log("The divisors of " + n + " are " + e + "."); //2 schrijfwijzen voor hetzelfde weer te geven
+console.log(`The divisors of ${n} are ${e}.`)
 
 /* Make a program that asks for a positive integer. Then display all the divisors of that integer which are not 1 or itself.
 
